@@ -23,7 +23,111 @@
             src="google_logo.png"
             />
         </a>
-        <div></div>
+
+        <!-- Non semantic tag -->
+        <!-- Block tag: div-->
+        <!-- Inline element: span-->
+        <!-- <div>
+            <p> Hello </p>
+            <p> World </p>
+        </div>
+
+        <div>
+            <p> Happy New Year</p>
+            <p> New Day </p>
+        </div>
+        <span>
+            Hello
+        </span>
+
+        <span>
+            <p> Happy New Year</p>
+            <p> New Day </p>
+        </span>
+
+        <ul>
+            <li> Dhaka</li>
+                <ul>
+                    <li> Motijheel</li>
+                    <li> Mirpur </li>
+                </ul>
+            <li> Chittagong</li>
+            <li> Rajshahi</li>
+        </ul>
+
+        <ol>
+            <li> Dhaka</li>
+                <ol>
+                    <li> Motijheel</li>
+                    <li> Mirpur </li>
+                </ol>
+            <li> Chittagong</li>
+            <li> Rajshahi</li>
+        </ol>
+
+        <table>
+            <thead>
+                <caption>Student Data</caption>
+                <tr>
+                    <th colspan="2">Information</th>
+                </tr>
+            <tr>
+                <th> Name </th>
+                <th> Roll No </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> Saiful</td>
+                <td> 113 </td>
+            </tr>
+            </tbody>
+        </table> -->
+
+        <!-- Form -->
+        <form action="/action.php">
+            <input type="text" placeholder="UserName">
+            <input type="password" placeholder="Password">
+
+            <br />
+            <br />
+            <!-- Single selection: Radio-->
+            <label for="101">
+            <input type="radio" value="class XI" name="class" id="101">Class XI
+            </label>
+            <label for="102">
+            <input type="radio" value="class XII" name="class" id="102">Class XII
+            </label>
+
+            <br />   
+            <br />  
+            <!-- Multiple selection: Checkbox-->       
+            <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101">Math
+            </label>
+            <br />
+            <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="102">Physics
+            </label>
+            <br />
+            <label for="biology">
+            <input type="checkbox" value="biology" name="subject" id="103">Biology
+            </label>
+
+            <br />
+            <br />
+            <!-- Dropdown-->
+            <select name="city">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Rajshahi">Rajshahi</option>
+            </select>
+
+            <br />
+            <br />
+            <textarea name="feedback" id="101" placeholder="Please give your feedback here" rows="5"> Feedback</textarea>
+        </form>
     </main>
     <footer>
 
